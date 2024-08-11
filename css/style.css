@@ -434,6 +434,28 @@ header .links .login_signup a {
 .banner .container .banner_img img {
     width: 100%;
 }
+@media (max-width: 767px) {
+    .banner .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner .container .banner_img {
+        position: relative;
+        width: 100%;
+    }
+    .banner_2.banner .container .banner_img {
+        width: 100%;
+        position: relative;
+    }
+    .banner .container .banner_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .banner .container .none {
+        display: none;
+    }
+   
+}
 
 .banner .glass_hover {
     position: absolute;
